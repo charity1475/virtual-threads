@@ -6,8 +6,9 @@ public class InboundOutboundTask {
   public static final int MAX_PLATFORM = 20;
 
   public static void main(String[] args) {
-//    platformThread();
-//    modernThread();
+    platformThread();
+    modernThread();
+    asyncAwait();
     virtualThread();
   }
 //  Traditional way to create a thread
